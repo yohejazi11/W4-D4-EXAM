@@ -68,13 +68,15 @@ ul li a{
 .main-btn{
     width: 10vw;
 }
+
+.weather-box,
 .input-form{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
     min-height: fit-content;
-    background-color: #D0B8A8;
+    background-color: #dac5b6;
     margin-top: 5rem;
     border-radius: 10px;
     padding: 2rem;

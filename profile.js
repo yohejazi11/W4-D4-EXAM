@@ -105,6 +105,7 @@ prayBTN.addEventListener("click", () => {
         .then(response => response.json())
         .then(dataa => {
             let prayerTimesBox = document.createElement('div')
+            prayerTimesBox.setAttribute('class','weather-box')
             console.log(dataa.data.timings)
             for (const [key, value] of Object.entries(dataa.data.timings)) {
                 let prayDiv = document.createElement('div')
